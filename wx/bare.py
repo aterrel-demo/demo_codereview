@@ -1,3 +1,5 @@
+"""Simple bare example wx app"""
+
 import wx
 
 class App(wx.App):
@@ -7,5 +9,6 @@ class App(wx.App):
         frame.Show()
         return True
 
-app = App()
-app.MainLoop()
+if __name__ == "__main__":
+    app = App()
+    app.MainLoop()
